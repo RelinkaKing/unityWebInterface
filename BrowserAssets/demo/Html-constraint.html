@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST" onsubmit="return formCommit();">
+        <input type="text" disabled="disabled">
+        <input type="text" required="required">
+        <input type="text" pattern="">
+        <input type="text" min="0" max="30">
+        <input type="submit" value="提交">
+    </form>
+    <p id="demo">
+        
+    </p>
+    <script>
+        var text = '{ "sites" : [' +
+	'{ "name":"Runoob" , "url":"www.runoob.com" },' +
+	'{ "name":"Google" , "url":"www.google.com" },' +
+	'{ "name":"Taobao" , "url":"www.taobao.com" } ]}';
+	
+    obj = JSON.parse(text);
+    document.getElementById("demo").innerHTML = obj.sites[0].name+"@"+obj.sites[0].url;
+    
+    function formCommit() {
+        alert("form commit 验证");
+    }
+    </script>
+</body>
+</html>

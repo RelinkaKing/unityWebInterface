@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form name="cumstoms" action=""></form> -->
+    <form name="myform" action="" onsubmit="return fun1()">
+    <div align="center">
+    <table border="1" width="60%" >
+        <tr>
+            <td colspan=100 align=center><h3>学生信息管理</h3></td>
+        </tr>
+        <tr>
+            <td height="39" width="463" bgcolor="#006699">
+            <font color="#FFFF00">学生编号：</font><input type="text" maxlength=10 id="sno" value="12345678">(8位数字)
+            </td>
+    
+            <td height="39" width="463" bgcolor="#006699">
+            <font color="#FFFF00">学生名字：</font><input type="text" maxlength=10 id="username" value="刘训">(中文)
+            </td>
+        </tr>
+        <tr>
+            <td height="39" width="463" bgcolor="#006699">
+            <font color="#FFFF00">邮箱地址：</font><input type="text" maxlength=10 id="email" value="1056125478@qq.com">
+            </td>
+            
+            <td height="39" width="463" bgcolor="#006699">
+            <font color="#FFFF00">电话号码：</font><input type="text" maxlength=11 id="tel" value="15574074751">
+            </td>
+        </tr>
+        <tr>
+            <td  height="53" width="985" bgcolor="#006699" colspan="2" align=center>
+            <input type="submit" value="使用submit按钮提交表单">
+            </td>
+        </tr>
+    </table>
+    <script src="Scripts/table.js"> </script>
+</body>
+</html>

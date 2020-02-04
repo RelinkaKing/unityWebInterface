@@ -1,0 +1,139 @@
+.wn-fastreg{
+  width: 260px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.wn-fastreg .row{
+  display: block;
+  padding-left: 64px;
+  width: 250px;
+  height: 36px;
+
+}
+.wn-fastreg .label{
+  position: absolute;
+  margin-left: -64px;
+  line-height: 30px;
+  font-size: 13px;
+  color: #333;
+  font-family: "Microsoft Yahei";
+  left: 110px;
+}
+.wn-fastreg .label.smcodetitle{
+  margin-left: -77px;
+}
+.wn-fastreg .collection{
+  position: relative;
+  height: 36px;
+}
+.wn-fastreg .collection input{
+  margin: 0;
+  border: solid 1px #cdcdcd;
+  padding: 6px;
+  width: 182px;
+  height: 16px;
+  line-height: 16px;
+  color: #999;
+  border-radius: 3px;
+}
+
+.wn-fastreg .mobileValidateCode input{
+  width: 76px;
+}
+.wn-fastreg .getMobileValidateCode{
+  position: absolute;
+  margin-left: 96px;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #933;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-style: normal;
+}
+.wn-fastreg .disabledMobileValidateCode{
+  background-color: #ccc;
+}
+
+.wn-fastreg .inputDefault,
+.wn-fastreg .inputWrite,
+.wn-fastreg .inputComplete,
+.wn-fastreg .msgContainer{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.wn-fastreg .collection .inputDefault,
+.wn-fastreg .collection .inputWrite{
+  color: #000;
+}
+.wn-fastreg .collection .msgError{
+  border-color: #f00;
+  color: #f00;
+}
+
+.wn-fastreg #captchaDiv{
+  float: left;
+  width: 76px;
+  margin-right: 10px;
+}
+.wn-fastreg #captchaDiv input{
+  width: 80px;
+}
+.wn-fastreg .captchaimg{
+  float: left;
+  margin-left: 10px;
+}
+.wn-fastreg .captchaimg .cptimg{
+  cursor: pointer;
+}
+
+.wn-fastreg .collection .inRegInpRight{
+  width: 76px;
+}
+.wn-fastreg .verifyCode{
+  position: absolute;
+  right: 20px;
+  top: 4px;
+}
+
+.wn-fastreg .agree{
+  height: 20px;
+  line-height: 20px;
+  color: #333;
+  padding-left: 4px;
+  font-size: 12px;
+  cursor: default;
+  font-family: NSimSun, SimSun;
+}
+.wn-fastreg .agree input{
+  margin: 0;
+  vertical-align: middle;
+}
+.wn-fastreg .agree a{
+  color: #ff5656;
+  text-decoration: none;
+}
+
+.wn-fastreg .send{
+  height: auto;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+.wn-fastreg .sendBtn{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 200px;
+  height: 60px;
+  background: url(img/fastreg.png) no-repeat left -130px;
+  outline: none;
+  cursor: pointer;
+}
+.wn-fastreg .sendBtn:hover{
+  background-position: left -210px;
+}
